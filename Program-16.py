@@ -4,4 +4,4 @@ import pyjokes
 
 joke = pyjokes.get_joke()
 
-print(joke)
+print("The joke is : ",joke)
