@@ -1,10 +1,10 @@
-# This program speaks the given text.
+# This program reads aloud the text entered by the user.
 
 import pyttsx3
 
 engine = pyttsx3.init()
 
-text = "My name is Abhishek Kumar Singh. I am from India."
+text = input("Enter the text : ")
 
 engine.say(text)
 
